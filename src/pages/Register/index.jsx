@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { LayoutComponents } from "../../components/LayoutComponents";
+import isaLogo from "../../assets/isaLogo.svg"
 
 import { api } from "../../services/api";
 
@@ -21,9 +22,13 @@ export const Register = () => {
 
   return (
     <LayoutComponents>
+      <img src = {isaLogo} alt="isa Logo" style={{
+        display:"flex", 
+        position:"relative", 
+        left:"10rem",
+        top:"-30px",
+        }} />
       <form className="login-form" onSubmit={handleRegisterUser}>
-        <span className="login-form-title"> Criar Conta </span>
-
         <span className="login-form-title">
           
         </span>

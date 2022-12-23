@@ -1,6 +1,5 @@
-import { useEffect, useContext } from "react";
+import { useContext } from "react";
 import { LayoutComponents } from "../../components/LayoutComponents";
-import { api } from "../../services/api";
 import { AuthContext } from "../../context/AuthContext"
 
 export const Home = () => {
