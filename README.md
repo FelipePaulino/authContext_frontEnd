@@ -1,6 +1,6 @@
 # authContext_frontEnd
 <strong>AuthContext_frontEnd é um projeto desenvolvido para testar a viabilidade de autenticação via contexto<br/>
-deve ser usado junto com o backEnd local [<strong>AuthContext_backEnd </strong>](https://github.com/FelipePaulino/authContext_backEnd) para que seja possível o cadastro e
+deve ser rodado junto com o backEnd local [<strong>AuthContext_backEnd </strong>](https://github.com/FelipePaulino/authContext_backEnd) para que seja possível o cadastro e
 autenticação de usuarios.</strong>
 <br/>
 <br/> 
